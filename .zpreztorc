@@ -1,0 +1,48 @@
+# Color output
+zstyle ':prezto:*:*' color 'yes'
+
+# Zsh functions
+zstyle ':prezto:load' zfunction 'zargs' 'zmv'
+
+# Prezto modules
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'git' \
+  'ssh' \
+  'command-not-found' \
+  'python' \
+  'tmux' \
+  'fasd' \
+  'archive' \
+  'wakeonlan' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'prompt' \
+  'autosuggestions'
+
+# Dot expansion
+zstyle ':prezto:module:editor' dot-expansion 'yes'
+
+# Prompt theme
+zstyle ':prezto:module:prompt' theme 'mcgill'
+
+# Ssh-agent
+zstyle ':prezto:module:ssh:load' identities 'id_rsa'
+
+# Syntax highlighting
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+  'main' \
+  'brackets' \
+  'pattern' \
+  'cursor' \
+  'root'
+
+# Case sensitivity
+zstyle ':prezto:*:*' case-sensitive 'no'
