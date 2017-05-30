@@ -17,5 +17,5 @@ export SHELL=$HOME/bin/zsh
 export ZSH=/u/cra254/.oh-my-zsh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 ZSH_THEME="robbyrussell"
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
