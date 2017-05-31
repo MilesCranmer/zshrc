@@ -19,3 +19,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
+
+git config --global user.name MilesCranmer
+git config --global user.email miles.cranmer@gmail.com
+git config --global core.editor "vim"
