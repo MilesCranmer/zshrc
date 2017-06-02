@@ -11,7 +11,7 @@ zstyle :compinstall filename '$HOME/.zshrc'
 autoload -Uz compinit
 compinit
 
-export SHELL=$HOME/bin/zsh
+export SHELL=$(which zsh)
 # End of lines added by compinstall
 
 export ZSH=$HOME/.oh-my-zsh
