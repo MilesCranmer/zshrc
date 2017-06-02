@@ -23,3 +23,5 @@ source $ZSH/oh-my-zsh.sh
 git config --global user.name MilesCranmer
 git config --global user.email miles.cranmer@gmail.com
 git config --global core.editor "vim"
+
+set -o vi
