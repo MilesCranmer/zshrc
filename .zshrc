@@ -1,3 +1,7 @@
+# Fix tabbing issue:
+# https://unix.stackexchange.com/questions/90772/first-characters-of-the-command-repeated-in-the-display-when-completing
+export LC_CTYPE=en_US.UTF-8
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=10000
